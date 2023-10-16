@@ -1,0 +1,132 @@
+/* welcome page */
+
+.welcomePage {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: vollkorn;
+
+}
+.item1 {
+    font-size: 5rem;
+}
+.item3 {
+    border: 2px solid white;
+    padding-top: 0.5rem;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.udit {
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .item1 {
+        font-size: 2rem;
+    }
+    .udit {
+        height: 100px;
+    }
+    .welcomePage > .item4 {
+        font-size: 2rem;
+    }
+    .backgroundPage > .head > p {
+        font-size: 2rem;
+    };
+    .backgroundPage > .container {
+        margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 300px;
+        color: white;
+        font-family: vollkorn;
+    }
+    .hobbiesPage > p {
+        font-size: 3rem;
+    }
+    .hobbiesPage > img {
+        height: 10px;
+    }
+
+}
+
+/* about page */
+
+.item4 {
+    font-size: 5rem;
+    padding-bottom: 100px;
+}
+
+.item5 {
+    border-bottom: 2px solid white;
+    padding-top: 0.5rem;
+    padding-left: 10px;
+    border-radius: 20px;
+    grid-column: 2/ span2;
+}
+
+/* background page*/
+
+.head {
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 5rem;
+    color: white;
+    font-family: vollkorn;
+}
+.backgroundPage > .container {
+    margin-left: 500px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    color: white;
+    font-family: vollkorn;
+}
+.backgroundPage > .container > p {
+    font-size: 3rem;
+}
+
+/* work page */
+
+.workPage > p {
+    font-size: 5rem;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+/* Hobbies Page */
+
+.hobbiesPage > p {
+    font-size: 3rem;
+}
+.hobbiesPage > .itemHobbies {
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.hobbiesPage > .itemHobbies > p {
+    margin-left: 50px;
+}
+
+.hobbiesPage > .basketball {
+    display: flex;
+    justify-content: flex-end;
+}
+.hobbiesPage > .basketball > p {
+    margin-left: 50px;
+}
+.hobbiesPage > .movies {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 120px;
+}
+.hobbiesPage > .movies > p {
+    margin-left: 50px;
+}
+/* contact me page*/
+
+.text-body-secondary {
+    color: white;
+
+}
